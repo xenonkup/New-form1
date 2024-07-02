@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #2E3C5E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* กำหนดความสูงของหน้าจอ */
+    margin: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* เพิ่มเงาสีดำ */ 
+
+}
+
+form{
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.1); /* กำหนดเงารอบฟอร์ม */
+    font-family: "Montserrat", sans-serif;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    margin: 30px;
+}
+
+label{
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+input{
+     width: 90%;
+     padding: 10px;
+     border: 1px solid #000;
+     border-radius: 5px; /* เพิ่มคามหนาของเส้น */
+     margin-bottom: 10px;
+}
+
+.form-button{
+    margin: 20px 0;
+}
+
+button{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px; /* กําหนด กรอบบนล่าง ขนาด 10px กรอบซ้ายขวา ขนาด 20px */
+    border: none; /* ลบเส้นขอบ */
+    border-radius: 5px; /* กำหนดเส้นโค้งปุ่ม */
+    font-size: 16px; /* กำหนดระยะห่างด้านบน */
+    box-shadow: #000000 0px 0px 10px;
+}
+
+button:hover{
+    background-color: #fcfcfc;
+    color: #5deb58;
+}
+
+.signup{
+    font-size: 20px;
+    font-weight: solid;
+}
+
+.extra-links a{
+    color: #000000;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-flex;
+}
+
+.social{
+    display: flex; /* ใช้ Flexbox เรียงไอคอนในแนวนอน */
+    justify-content: center; /* จัดไอคอนให้อยู่กลางในแนวนอน */
+    align-items: center; /* จัดไอคอนให้อยู่กลางในแนวตั้ง */
+    margin-top: 20px;
+}
+
+.social div{
+    margin: 0 10px; /* กำหนดระยะห่างของไอคอน */
+    display: flex;
+    flex-direction: column; /* จัดเรียงไอคอนและข้อความในแนวตั้ง */
+    align-items: center; /* จัดไอคอนและข้อความให้อยู่กลางในแนวนอน */
+}
+
+.social img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+
+
+
+
+
