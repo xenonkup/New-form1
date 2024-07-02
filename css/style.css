@@ -2,8 +2,11 @@
 
 body{
     background-color: #2E3C5E;
-    display: flex;
+    /* display: flex; ใช้ Flexbox เรียงไอคอนในแนวนอน */
+    display: flex;  
+    /* justify-content: center; จัดไอคอนให้อยู่กลางในแนวนอน */
     justify-content: center;
+    /* align-tems: center;  จัดไอคอนให้อยู่กลางในแนวตั้ง */
     align-items: center;
     height: 100vh; /* กำหนดความสูงของหน้าจอ */
     margin: 0;
@@ -13,8 +16,11 @@ body{
 
 form{
     background-color: white;
+    /* border-radius: 20px; กำหนด เส้นโค้ง */
     border-radius: 20px;
+    /* padding: 40px; กำหนดระยะห่างภายใน */
     padding: 40px;
+    /* text-align: center; จัดตําแหน่งข้อความ */
     text-align: center;
     box-shadow: 0px 0 10px rgba(0, 0, 0, 0.1); /* กำหนดเงารอบฟอร์ม */
     font-family: "Montserrat", sans-serif;
@@ -27,6 +33,7 @@ h3{
 
 label{
     color: black;
+    /* display: block; แสดงในแนวตั้ง */
     display: block;
     margin-bottom: 10px;
     text-align: left;
@@ -68,6 +75,7 @@ button:hover{
     color: #000000;
     text-decoration: none;
     margin: 10px;
+    /* display: inline-flex; ใช้ Flexbox เรียงไอคอนในแนวตั้ง */
     display: inline-flex;
 }
 
