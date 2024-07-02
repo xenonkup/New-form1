@@ -2,8 +2,11 @@
 
 body {
     background-color: #2E3C5E;
-    display: flex;
+    /* display: flex; ใช้ Flexbox เรียงไอคอนในแนวนอน */
+    display: flex; 
+    /* justify-content: center; จัดไอคอนให้อยู่กลางในแนวนอน */
     justify-content: center;
+    /* align-tems: center;  จัดไอคอนให้อยู่กลางในแนวตั้ง */
     align-items: center;
     height: 100vh; /* กำหนดความสูงของหน้าจอ */
     margin: 0;
@@ -26,6 +29,7 @@ h3 {
 
 label {
     color: black;
+    /* display: block; จัดตําแหน่งข้อความ */
     display: block;
     margin-bottom: 10px;
     text-align: left;

@@ -2,8 +2,11 @@
 
 body{
     background-color: #2E3C5E;
+    /* display:flex: ; จัดไอคอนให้อยู่กลางในแนวนอน */
     display: flex;
+    /* justify-content: center; จัดไอคอนให้อยู่กลางในแนวนอน */
     justify-content: center;
+    /* align-items: center; จัดไอคอนให้อยู่กลางในแนวนอน */
     align-items: center;
     height: 100vh; /* กำหนดความสูงของหน้าจอ */
     margin: 0;
